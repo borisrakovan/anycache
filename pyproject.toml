@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "anycache"
+version = "0.1.0"
+description = ""
+authors = ["Boris Rakovan <b.rakovan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.3"
+twine = "^4.0.2"
+pytest-asyncio = "^0.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
