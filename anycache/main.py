@@ -146,7 +146,7 @@ R = TypeVar("R")
 
 
 @overload
-def cache(__fn: Callable[P, R]) -> Callable[P, R]:
+def cache(fn: Callable[P, R]) -> Callable[P, R]:
     ...
 
 
